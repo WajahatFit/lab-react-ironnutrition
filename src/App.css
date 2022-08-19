@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  display:inline-block
+}
+
+.form {
+  max-width: 800px;
+  text-align: start;
+  margin: 100px 500px 100px 300px;
+}
+.form h1 {
+  text-align: center;
+}
+.form button {
+  margin-top:10px;
+  padding: 10px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 10px;
+}

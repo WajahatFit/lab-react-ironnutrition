@@ -9,7 +9,7 @@ function FoodBox({food, handleDelete}) {
     
     
     return (
-        <div>
+        <div className='card'>
          <Col>
           <Card
             title={food.name}

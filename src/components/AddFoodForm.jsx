@@ -27,16 +27,16 @@ export default function AddFoodForm({onCreate}) {
 
 
   return (
-    <div>
+    <div className='form'>
     <h1>Add Food Entry</h1>
     <form onSubmit={handleForm}>
-        <label>Name:</label>
+        <label>Name</label>
         <Input type='text' onChange={(e) => {setName(e.target.value)}} placeholder='name' value={name}/>
-        <label>Image:</label>
+        <label>Image</label>
         <Input type='text' onChange={e => {setImage(e.target.value)}} placeholder='image' value={image}/>
-        <label>Calories:</label>
+        <label>Calories</label>
         <Input type='number' onChange={e => {setCalories(e.target.value)}} placeholder='calories' value={calories}/>
-        <label>Servings:</label>
+        <label>Servings</label>
         <Input type='number'onChange={e => {setServings(e.target.value)}} placeholder='servings' value={servings}/> 
         <br/>
         <button type='submit'>Create Dish</button>

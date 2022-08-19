@@ -45,8 +45,9 @@ function App() {
  
   return (
     <div className="App">
+   
     <Search handleSearch={handleSearch}/>
-    <button onClick={() => showForm()}>{show ? 'Hide' : 'Show' } Form</button>
+    <button onClick={() => showForm()}>{show ? 'Hide' : 'Show' } Form</button> <br/>
     {show && <AddFoodForm onCreate={handleNewFood}/>}
     
     {allItems}
